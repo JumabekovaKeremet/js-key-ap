@@ -1,8 +1,6 @@
 let button = document.querySelector('button');
 
 button.addEventListener('click', function(event){
-  alert('test');
-
-
+  console.log(event);
   event.preventDefault();
 });
